@@ -6,13 +6,12 @@
 /*   By: ilhannou <ilhannou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/13 17:20:44 by ilhannou          #+#    #+#             */
-/*   Updated: 2024/11/14 19:37:42 by ilhannou         ###   ########.fr       */
+/*   Updated: 2024/11/29 16:02:09 by ilhannou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
-# include "./libft/libft.h"
 # include <unistd.h>
 # include <stdlib.h>
 # include <stdarg.h>

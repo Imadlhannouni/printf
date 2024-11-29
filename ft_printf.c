@@ -6,7 +6,7 @@
 /*   By: ilhannou <ilhannou@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/14 17:06:41 by ilhannou          #+#    #+#             */
-/*   Updated: 2024/11/14 20:15:33 by ilhannou         ###   ########.fr       */
+/*   Updated: 2024/11/29 16:00:58 by ilhannou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,6 +50,8 @@ int	ft_printf(const char *format, ...)
 	va_start(args, format);
 	while (format[i])
 	{
+		if (!format)
+			return (-1);
 		if (format[i] == '%')
 		{
 			i++;
